@@ -1,0 +1,224 @@
+/*Global Styles
+______________________________*/
+
+
+/*colour palette
+
+Green - #40f99b
+Grey - #a8b1b8
+Purple - #9d69a3
+White - #f5fbef
+Pink - #e85d75
+Darker grey - #61707d
+
+Font https://fonts.google.com/specimen/Bungee+Shade
+https://fonts.google.com/specimen/Monofett
+https://fonts.google.com/specimen/Monoton
+https://fonts.google.com/specimen/Quicksand?selection.family=Quicksand
+
+old html
+    <header>
+        <div class="header">
+           <h1>FLY AWAY WITH ME </br> FILM FESTIVAL </h1>
+           <h2>14.-15.september 2018</h2>
+        </div>
+    </header>
+
+______________________________*/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+	margin:0;
+}
+
+
+
+h1,h2 {
+    font-family: 'Monofett', cursive;
+}
+
+h1{
+	font-size: 80px;
+}
+
+h2{
+	margin-top:0;
+	font-size: 40px;
+}
+
+a {
+	color:#7db9e5;
+}
+
+a:hover {
+	color:#e85d75;
+}
+
+.contentwrap {
+	max-width:950px;
+	margin:0 auto;
+	padding:50px;
+	overflow:auto;
+
+}
+
+
+/*Body styles
+______________________________*/
+
+.video_section {
+	position:relative;
+    width: 100%; 
+    overflow:hidden;
+    max-height: 360px; 
+    display:block;
+}
+
+#myvideo {
+	width=100%
+}
+
+.video_overlay {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	text-align: center;
+}
+
+.video_overlay h2 {
+		font-family: 'Quicksand', sans-serif;
+}
+
+.col-team{
+	width:20%;
+	float:left;
+	position:relative;
+}
+
+.team-img{
+	border-radius:8px;
+	width:95%;
+
+}
+
+.teamwrap{
+	max-width:950px;
+	margin:auto;
+	padding:50px;
+	overflow:auto;
+	text-align:center;
+}
+
+/*Header and Footer Styles
+______________________________*/
+
+
+
+/*header*/
+
+header {
+	background:#23B1BD;
+	text-align:center;
+}
+
+
+header h1{
+	color: #f5fbef;
+	margin:0;
+}
+
+header h2{
+	color: #f5fbef;
+	margin:0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+/*footer*/
+footer{
+	text-align:center;
+	background: #98a9bc;
+}
+.contactinfo {
+
+	padding:15px;
+	display:inline-block;
+}
+
+.contactinfo span {
+	color:#f5fbef;
+}
+/*Body Styles
+______________________________*/
+
+.about {
+	background:#f5fbef;
+}
+
+.program{
+	background:#a8b1b8;
+}
+.team {
+	background:#f5fbef;
+}
+.partners {
+	background:white;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:left;
+}
+
+.item{
+	margin:5px;
+}
+
+.programimg{
+	width:25em;
+	height:auto;
+}
+
+.goto{
+	background:#f5fbef;
+}
+
+.aboutus{
+	background-image:url(../images/people2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.filmfestivalabc{
+	background-image:url(../images/runway2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.container2{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:left;
+}
+
+.sponsorimg{
+	height:100px;
+	margin:2em;
+}
